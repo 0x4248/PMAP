@@ -53,10 +53,7 @@ def generate_image(file):
             image = replace_pixel(image, int(x), int(y), color)
     return image
 
-
 def pmap_to_img(file, output):
-    from PIL import Image
-
     image = generate_image(file)
     img = Image.new("RGB", (len(image), len(image[0])))
     pixels = img.load()
