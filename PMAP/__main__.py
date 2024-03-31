@@ -7,7 +7,7 @@
 try:
     from PIL import Image
 except ImportError:
-    print("PIL is not installed. Please install it using 'pip install pillow'")
+    print("PIL is not installed. Please install it using 'pip install pillow' or use the requirements.txt file")
     exit(1)
 import os
 import sys
