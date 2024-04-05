@@ -4,4 +4,4 @@
 # Licence: GNU General Public License v3.0
 # By: Lewis Evans
 
-pillow>=10.1.0
+pillow>=10.3.0
