@@ -1,8 +1,8 @@
 # PMAP
 # A simple image format that is human readable and editable
-# GitHub: https://www.github.com/lewisevans2007/PMAP
+# GitHub: https://www.github.com/0x4248/PMAP
 # Licence: GNU General Public License v3.0
-# By: Lewis Evans
+# By: 0x4248
 
 from setuptools import setup
 
