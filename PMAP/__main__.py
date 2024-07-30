@@ -85,7 +85,8 @@ if __name__ == "__main__":
             img_to_pmap(sys.argv[2], sys.argv[3])
             sys.exit(0)
         elif sys.argv[1] == "-b":
-            file = open(sys.argv[2], "r").readlines()
+            with open(sys.argv[2], "r") as file:
+                lines = file.readlines()
             pmap_to_img(file, sys.argv[3])
             sys.exit(0)
         elif sys.argv[1] == "-v":
